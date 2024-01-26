@@ -2,9 +2,79 @@ body{
     font-family: "Satisfy", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 130%;
+    margin: 0%;
+   
   }
   .text-highlight{
       color: blueviolet;
-
+      
+  }
+  section{
+    height: 500px;
+    padding-bottom: 10px;
+  }
+  .half-width{
+    width: 40%;
+    height: 500px;
+   float: left;
+   margin-left: 5%;
+   margin-right: 2%;
+   
+     
     
+  }
+  .half-width img{
+    width: 100%;
+   
+  }
+  .top-banner{
+    background-image: url(Images/top-banner.png);
+   background-repeat: no-repeat;
+  }
+  .link-button{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+
+  }
+  .dream{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 55%;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: silver;
+    
+   
+    
+    
+  }
+  .Experience{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+
+  #from-2021{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(151, 115, 115), rgb(116, 57, 116));
+    border-image-slice: 1;
+    
+    
+  }
+  #upto-2020{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(59, 56, 77), rgb(58, 115, 141));
+    border-image-slice: 1;
+  }
+  footer{
+    text-align: center;
+    font-size: 70%;
   }
